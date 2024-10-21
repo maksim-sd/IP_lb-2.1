@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/media/img/logo.png" type="imgage">
+    <link rel="stylesheet" href="/media/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>{% block title %}Главная{% endblock%}</title>
+</head>
+
+<body>
+    <header>
+        <div class="main-container">
+            <div class="header-container">
+                <img src="/media/img/logo_header.png" alt="logo-header" class="logo-header">
+                <nav class="header-navigation">
+                    <a href="/">
+                        <h3 class="header-nav-text">Главная</h3>
+                    </a>
+                    <a href="/advanteges">
+                        <h3 class="header-nav-text">Преимущества</h3>
+
+                    </a>
+                    <a href="/tariffs">
+                        <h3 class="header-nav-text">Тарифы</h3>
+                    </a>
+                    <a href="/contacts">
+                        <h3 class="header-nav-text">Контакты</h3>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    {% block content %}
+    <section class="section-1">
+        <div class="main-container">
+            <div class="section-container-1">
+                <h1 class="section-title-1">
+                    Подключите домашний интернет от Ростелеком
+                </h1>
+                <a href="/contacts">
+                    <button type="button" class="tariff-button">
+                        <h3 class="tariff-button-text">Подключить</h3>
+                    </button>
+                </a>
+                <img src="/media/img/img_man.png" alt="man" class="img-man">
+                <img src="/media/img/img_woman.png" alt="woman" class="img-woman">
+            </div>
+        </div>
+    </section>
+    <section class="section-2">
+        <div class="main-container">
+            <div class="section-container-2">
+                <h2 class="section-title">
+                    О нас
+                </h2>
+                <div class="section-block-2">
+                    <h3 class="section-text-2">
+                        <b>ПАО «Ростелеком»</b> — крупнейший в России интегрированный провайдер цифровых услуг и
+                        решений, который присутствует во всех сегментах рынка и охватывает миллионы домохозяйств,
+                        государственных и частных организаций.
+                    </h3>
+                    <h3 class="section-text-2">
+                        Домашний интернет от Ростелеком представляет собой услугу по предоставлению высокоскоростного
+                        доступа в интернет для домашнего использования. Ростелеком является одним из крупнейших
+                        провайдеров интернета в России и предлагает различные тарифные планы, которые включают в себя
+                        определенную скорость интернета, объем трафика, а также дополнительные услуги, например,
+                        подключение кабельного телевидения или цифрового телефона. Домашний интернет от Ростелеком
+                        обеспечивает стабильное и надежное подключение к сети, позволяя пользователям с комфортом
+                        пользоваться интернетом в своих домах.
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endblock %}
+
+    <footer>
+        <div class="main-container">
+            <div class="footer-container">
+                <h3 class="footer-text">© 2023 ПАО «Ростелеком». 18+</h3>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

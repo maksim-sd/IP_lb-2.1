@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+.logo-header {
+    width: 199px;
+    height: 70px;
+}
+
+.main-container {
+    width: 1320px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    justify-content: space-between;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.header-navigation h3 {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.header-navigation h3:hover {
+    color: #FF4F12;
+}
+
+footer {
+    background-color: #f6f6f6;
+}
+
+.footer-container {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+.section-1 {
+    background-color: #9A53EC;
+    padding-top: 120px;
+    padding-bottom: 180px;
+}
+
+.img-man {
+    position: absolute;
+    right: 300px;
+    top: 160px;
+}
+
+.img-woman {
+    position: absolute;
+    right: 630px;
+    top: 335px;
+}
+
+.section-title-1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    width: 830px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.section-2 {
+    margin: 60px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-text-2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-block-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.advantege {
+    background-color: #F6F6F6;
+    text-align: center;
+    width: 310px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+    column-gap: 30px;
+}
+
+.advanteges {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-container-3 {
+    margin: 60px 0;
+}
+
+.advanteg-icon {
+    width: 128px;
+    height: 128px;
+    margin-top: 30px;
+}
+
+.advantege-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.advantege-text {
+    font-size: 18px;
+    font-weight: 400;
+    width: 250px;
+}
+
+.section-4 {
+    margin: 60px 0;
+}
+
+.tariffs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tariff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 350px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+}
+
+.tariff-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.tariff-price {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.tariff-price-text {
+    align-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.tariff-speed {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tariff-button {
+    background-color: #FF4F12;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.tariff-button:hover {
+    background-color: #e63a00;
+}
+
+.tariff-button-text {
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-5 {
+    background-color: #303033;
+}
+
+.section-container-5 {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.section-block-left {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.block-left-title {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.input-form {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.input-text {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.input-data {
+    border-radius: 10px;
+    width: 300px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 0.5px solid #ABABAB;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.input-data:focus-visible {
+    outline: none;
+    border: 1px solid #FF4F12;
+}
+
+.contacts-button {
+    margin: 0;
+    width: 300px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+
+.section-block-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.block-right-title {
+    color:#fff;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.number {
+    display: flex;
+    gap: 15px;
+}
+
+.number-text h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.social-media {
+    display: flex;
+    gap: 40px;
+    margin-left: 15px;
+}

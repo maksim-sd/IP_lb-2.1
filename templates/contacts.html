@@ -1,0 +1,49 @@
+{% extends "index.html" %}
+
+{% block title %} Контакты {% endblock %}
+
+{% block content %}
+
+<section class="section-5">
+    <div class="main-container">
+        <div class="section-container-5">
+            <div class="section-block-left">
+                <div class="block-left-title">Заявка</div>
+                <form action="send_bid" method="POST">
+                    <div class="input-form">
+                        <h3 class="input-text">Имя</h3>
+                        <input class="input-data" type="text" name="name" id="text">
+                    </div>
+                    <div class="input-form">
+                        <h3 class="input-text">Номер телефона</h3>
+                        <input class="input-data" type="tel" name="phone" id="tel">
+                    </div>
+                    <input type="submit" class="tariff-button contacts-button" value="Оставить заявку">
+                </form>
+            </div>
+            <div class="section-block-right">
+                <div class="block-right-title">Наши контакты</div>
+                <div class="number">
+                    <img src="/media/img/number-icon.png" alt="icon" class="number-icon">
+                    <div class="number-text">
+                        <h3>Наш номер телефона</h3>
+                        <h3>+8 800 100 0 800</h3>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <a href="https://vk.com/rostelecom">
+                        <img src="/media/img/vk-icon.png" alt="icon" class="social-media-icon">
+                    </a>
+                    <a href="https://t.me/s/rostelecomofficial">
+                        <img src="/media/img/tg-icon.png" alt="icon" class="social-media-icon">
+                    </a>
+                    <a href="https://ok.ru/rostelecom.official">
+                        <img src="/media/img/ok-icon.png" alt="icon" class="social-media-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

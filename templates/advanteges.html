@@ -1,0 +1,26 @@
+{% extends "index.html" %}
+
+{% block title %} Преимущества {% endblock %}
+
+{% block content %}
+
+<section class="section-3">
+    <div class="main-container">
+        <div class="section-container-3">
+            <h3 class="section-title">Преимущества</h3>
+            <div class="advanteges">
+                {% for advantege in advanteges %}
+
+                <div class="advantege">
+                    <img src="/media/img/{{ advantege['icon'] }}" alt="" class="advanteg-icon">
+                    <h2 class="advantege-title">{{ advantege['title'] }}</h2>
+                    <h3 class="advantege-text">{{ advantege['text'] }}</h3>
+                </div>
+
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

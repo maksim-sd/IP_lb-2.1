@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Персональный",
+        "icon": "tariff-1.png",
+        "price": 250,
+        "speed": 100
+    },
+    {
+        "title": "Бизнес",
+        "icon": "tariff-2.png",
+        "price": 500,
+        "speed": 200
+    },
+    {
+        "title": "Премиум",
+        "icon": "tariff-3.png",
+        "price": 600,
+        "speed": 500
+    }
+]

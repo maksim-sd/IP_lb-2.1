@@ -1,0 +1,35 @@
+{% extends "index.html" %}
+
+{% block title %} Тарифы {% endblock %}
+
+{% block content %}
+
+<section class="section-4">
+    <div class="main-container">
+        <div class="section-container-4">
+            <h3 class="section-title">Тарифы</h3>
+            <div class="tariffs">
+                {% for tariff in tariffs %}
+
+                <div class="tariff">
+                    <h3 class="tariff-title">{{ tariff['title'] }}</h3>
+                    <img src="/media/img/{{ tariff['icon'] }}" alt="" class="tariff-icon">
+                    <div>
+                        <h3 class="tariff-price">{{ tariff['price'] }}</h3>
+                        <h3 class="taridd-price-text">Рублей в месяц</h3>
+                    </div>
+                    <h3 class="tariff-speed">{{ tariff['speed'] }} Мбит/с</h3>
+                    <a href="/contacts">
+                        <button type="button" class="tariff-button">
+                            <h3 class="tariff-button-text">Подключить</h3>
+                        </button>
+                    </a>
+                </div>
+
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
